@@ -10,7 +10,6 @@
 |[kids-with-the-greatest-number-of-candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)|[kids-with-the-greatest-number-of-candies_test.go](solutions/kids-with-the-greatest-number-of-candies_test.go)|
 |[length-of-last-word](https://leetcode.com/problems/length-of-last-word/)|[length_of_last_word_test.go](solutions/length_of_last_word_test.go)|
 |[longest-common-prefix](https://leetcode.com/problems/longest-common-prefix/)|[longest_common_prefix_test.go](solutions/longest_common_prefix_test.go)|
-|[merge-two-sorted-lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[merge_two_sorted_lists_test.go](solutions/merge_two_sorted_lists_test.go)|
 |[palindrome-number](https://leetcode.com/problems/palindrome-number/)|[palindrome_number_test.go](solutions/palindrome_number_test.go)|
 |[plus-one](https://leetcode.com/problems/plus-one/)|[plus_one_test.go](solutions/plus_one_test.go)|
 |[rearrange-spaces-between-words](https://leetcode.com/problems/rearrange-spaces-between-words/)|[rearrange_spaces_between_words_test.go](solutions/rearrange_spaces_between_words_test.go)|

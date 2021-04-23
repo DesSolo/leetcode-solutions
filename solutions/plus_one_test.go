@@ -7,14 +7,15 @@ import (
 )
 
 func plusOne(digits []int) []int {
-	lastIndex := len(digits) - 1
-	newVal := digits[lastIndex] + 1
-	if newVal == 10 {
-		newVal = 1
-		digits = append(digits, 0)
+	for i := len(digits) - 1; i >= 0; i-- {
+		if digits[i] == 9 {
+			digits[i] = 0
+			continue
+		}
+		digits[i]++
+		return digits
 	}
-	digits[lastIndex] = newVal
-	return digits
+	return append([]int{1}, digits...)
 }
 
 func TestPlusOne(t *testing.T) {
