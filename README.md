@@ -4,6 +4,8 @@
 |---|---|
 |[check-if-the-sentence-is-pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)|[check-if-the-sentence-is-pangram_test.go](solutions/check-if-the-sentence-is-pangram_test.go)|
 |[check-if-two-string-arrays-are-equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)|[check_if_two_string_arrays_are_equivalent_test.go](solutions/check_if_two_string_arrays_are_equivalent_test.go)|
+|[count-items-matching-a-rule](https://leetcode.com/problems/count-items-matching-a-rule/)|[count-items-matching-a-rule_test.go](solutions/count-items-matching-a-rule_test.go)|
+|[count-the-number-of-consistent-strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/)|[count-the-number-of-consistent-strings_test.go](solutions/count-the-number-of-consistent-strings_test.go)|
 |[defanging-an-ip-address](https://leetcode.com/problems/defanging-an-ip-address/)|[defanging_an_ip_address_test.go](solutions/defanging_an_ip_address_test.go)|
 |[determine-if-string-halves-are-alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/)|[determine_if_string_halves_are_alike_test.go](solutions/determine_if_string_halves_are_alike_test.go)|
 |[goal-parser-interpretation](https://leetcode.com/problems/goal-parser-interpretation/)|[goal-parser-interpretation_test.go](solutions/goal-parser-interpretation_test.go)|
@@ -21,5 +23,6 @@
 |[running-sum-of-1d-array](https://leetcode.com/problems/running-sum-of-1d-array/)|[running_sum_of_1d_array_test.go](solutions/running_sum_of_1d_array_test.go)|
 |[search-insert-position](https://leetcode.com/problems/search-insert-position/)|[search_insert_position_test.go](solutions/search_insert_position_test.go)|
 |[string-to-integer-atoi](https://leetcode.com/problems/string-to-integer-atoi/)|[string_to_integer_atoi_test.go](solutions/string_to_integer_atoi_test.go)|
+|[to-lower-case](https://leetcode.com/problems/to-lower-case/)|[to-lower-case_test.go](solutions/to-lower-case_test.go)|
 |[twosum](https://leetcode.com/problems/twosum/)|[twosum_test.go](solutions/twosum_test.go)|
 |[valid-parentheses](https://leetcode.com/problems/valid-parentheses/)|[valid_parentheses_test.go](solutions/valid_parentheses_test.go)|
