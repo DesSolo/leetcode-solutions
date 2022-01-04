@@ -35,7 +35,6 @@ func TestToLowerCase(t *testing.T) {
 	}
 }
 
-
 func BenchmarkRune(b *testing.B) {
 	for n := 0; n < b.N; n++ {
 		toLowerCase("Hello")

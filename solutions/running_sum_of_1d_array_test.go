@@ -6,25 +6,14 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func runningSum1(nums []int) []int {
-	var result []int
-	counter := 0
-	for _, item := range nums {
-		counter += item
-		result = append(result, counter)
-	}
-	return result
-}
-
 func runningSum(nums []int) []int {
 	counter := 0
-	for i:=0; i<len(nums); i++ {
+	for i := 0; i < len(nums); i++ {
 		counter += nums[i]
 		nums[i] = counter
 	}
 	return nums
 }
-
 
 func TestRunningSum(t *testing.T) {
 	for _, tc := range []struct {

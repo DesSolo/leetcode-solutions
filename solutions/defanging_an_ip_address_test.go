@@ -54,13 +54,11 @@ func BenchmarkIF(b *testing.B) {
 	}
 }
 
-
 func BenchmarkSWITCH(b *testing.B) {
 	for n := 0; n < b.N; n++ {
 		defangIPaddrSWITCH("255.100.50.0")
 	}
 }
-
 
 func BenchmarkREPLACE(b *testing.B) {
 	for n := 0; n < b.N; n++ {

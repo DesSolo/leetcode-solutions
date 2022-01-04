@@ -11,7 +11,7 @@ func countConsistentStrings(allowed string, words []string) int {
 
 	for i := 0; i < len(words); i++ {
 		var matched int
-		
+
 		for j := 0; j < len(words[i]); j++ {
 			for m := 0; m < len(allowed); m++ {
 				if allowed[m] == words[i][j] {

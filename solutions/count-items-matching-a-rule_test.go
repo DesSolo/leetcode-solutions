@@ -7,16 +7,16 @@ import (
 )
 
 var pTypes = map[string]int{
-	"type": 0,
+	"type":  0,
 	"color": 1,
-	"name": 2,
+	"name":  2,
 }
 
 func countMatches(items [][]string, ruleKey string, ruleValue string) int {
 	sIndex := pTypes[ruleKey]
 
 	var counter int
-	for i:=0; i<len(items); i++ {
+	for i := 0; i < len(items); i++ {
 		if items[i][sIndex] == ruleValue {
 			counter++
 		}

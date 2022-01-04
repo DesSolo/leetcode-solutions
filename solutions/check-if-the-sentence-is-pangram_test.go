@@ -6,12 +6,11 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-
 func checkIfPangram(sentence string) bool {
 	var seq = make([]bool, 26)
 
 	for _, char := range sentence {
-		seq[char - 'a'] = true
+		seq[char-'a'] = true
 	}
 
 	for _, i := range seq {
