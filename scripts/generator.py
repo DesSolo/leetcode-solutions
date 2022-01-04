@@ -80,11 +80,11 @@ def get_template(tpl_path, lang):
 
 if __name__ == '__main__':
     parser = ArgumentParser()
-    parser.add_argument('-l', required=True, dest='language', default='Go', help='Language')
+    parser.add_argument('-l', dest='language', default='Go', help='Language')
     parser.add_argument('-e', dest='expansion', default='go', help='Code file expansion')
     parser.add_argument('-s', dest='suffix', default='_test', help='Code file suffix')
-    parser.add_argument('-d', dest='dst', help='Solutions destination path')
-    parser.add_argument('-t', dest='templates', help='Templates path')
+    parser.add_argument('-d', required=True, dest='dst', help='Solutions destination path')
+    parser.add_argument('-t', required=True, dest='templates', help='Templates path')
     parser.add_argument('slug', help='Slug')
     args = parser.parse_args()
 

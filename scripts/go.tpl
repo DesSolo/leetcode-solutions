@@ -10,12 +10,14 @@ import (
 
 func Test{meta_name_normal}(t *testing.T) {{
 	for _, tc := range []struct {{
-		Input  []int
-		Output int
+		name   string
+		input  []int
+		output int
 	}}{{
-		{{Input: []int{{1}}, Output: 2}},
-		{{Input: []int{{0}}, Output: 5}},
+		{{name: "Example 1", input: []int{{1}}, output: 2}},
 	}} {{
-		assert.Equal(t, tc.Output, {meta_name}(tc.Input), tc.Input)
+		t.Run(tc.name, func(t *testing.T) {{
+			assert.Equal(t, tc.output, {meta_name}(tc.input), tc.input)
+		}})
 	}}
 }}
